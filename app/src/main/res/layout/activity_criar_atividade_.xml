@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CriarAtividade_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/textoTitulo"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:width="100px"
+            android:minWidth="100px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="salvarTarefa"
+        android:text="Criar" />
+    </LinearLayout>
+    <!--
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="10">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Titulo"
+            android:layout_rowSpan="1"/>
+
+    </GridLayout>
+ __-->
+
+</android.support.constraint.ConstraintLayout>
